@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Экспресс консультация по науке Сюцай - цифровая психология, расчет числа сознания, миссии и личного года. Мастер Сюцай Александр Грицких.">
+      <meta name="keywords" content="Сюцай, цифровая психология, число сознания, миссия, нумерология, консультация, Александр Грицких">
+      <meta property="og:title" content="Сюцай PRO - Экспресс Консультация по науке Сюцай">
+      <meta property="og:description" content="Цифровая психология Сюцай - узнайте свое число сознания, миссию и личный год. Консультации от мастера Александра Грицких.">
+
+  <script type="text/javascript">
+      m[i] = m[i] || function () {
+      };
+      m[i].l = 1 * new Date();
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(106319020, "init", {
+ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/106319020" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+      <!-- /Yandex.Metrika counter -->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script defer src="js/suisai.js"></script>
+  <script defer src="js/descriptions/chsDescription.js"></script>
+  <script defer src="js/descriptions/triggers.js"></script>
+  <script defer src="js/descriptions/missionDescription.js"></script>
+  <script defer src="js/descriptions/taskDescription.js"></script>
+  <script defer src="js/descriptions/yearDescription.js"></script>
+  <script defer src="js/descriptions/inviteDescription.js"></script>
+  <script defer src="js/index.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>Сюцай PRO</title>
+  <style>
+    .anchor {
+      padding-top: 80px;
+      margin-top: -80px;
+    }
+
+    .copy {
+      cursor: cell;
+      background-color: none;
+      -webkit-transition: background-color 1s;
+      transition: background-color 1s;
+    }
+
+    .copy:hover {
+      background-color: ghostwhite;
+      -webkit-transition: background-color 1s;
+      transition: background-color 1s;
+    }
+
+    .w-form-inline-dd {
+      width: 40px;
+    }
+
+    .w-form-inline-dddd {
+      width: 50px;
+    }
+
+    .large-text {
+      white-space: pre-wrap;
+    }
+
+    .page-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    #about img {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid mt-5 pt-3" id="app">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="d-flex align-items-center page-container">
+          <a class="navbar-brand" href="#">Сюцай PRO</a>
+    </header>
+
+    <main class="page-container">
+      <!-- О Сюцай-->
+              <div class="card my-3">
+          <div class="card-body">
+            <h5 class="card-title">О науке Сюцай</h5>
+            <h6>Добрый день, друзья!</h6>
+            <p>Вы находитесь на самом информативном и полезном интернет-ресурсе, посвященном цифровой психологии Сюцай. Данный сайт подготовлен мастером Сюцай Александром Грицких для помощи новым мастерам и всем желающим прикоснуться к новым трансформационным знаниям.</p>
+            
+            <p>Сюцай – это цифровая наука, где дата рождения является кодом человеческой души. В цифрах даты рождения скрыты таланты, способности, предрасположенности, сильные стороны и направление реализации.</p>
+            
+            <a href="about-suisai.html" class="btn btn-primary mt-3">Читать подробно</a>
+          </div>
+        </div>
+
+      <!-- Экспресс-консультация -->
+      <div>
+        <div id='express mt-5' class='anchor'>
+          <h3 class='copy' onclick="setSelection('consultation')">Узнать подробности и пройти консультацию по Сюцай. Пиши <a href="https://t.me/alexgritskikh" target="_blank">t.me/alexgritskikh</a>, WhatsApp: <a
+        href="https://wa.me/79184944449">+79184944449</a></h3>
+                      <form action="#" class="form-inline mt-2">
+                                        <input type="text" placeholder="ФИО" class="form-control" v-model="fio">                           </form>
+            <input type="number" placeholder="дд" class="form-control col-3" min="1" max="31" step="1" v-model="day">          <input type="number" placeholder="мм" class="form-control col-3" min="1" max="12" step="1" v-model="month">
+          <input type="number" placeholder="гггг" class="form-control col-6" min="1900" max="2050" step="1"
+            v-model="year">
+        </form>
+
+        <div class='mt-2'>
+          <h6>Нажмите на заголовки или кнопку для выделения и копирования </h6>
+          <button class='btn btn-sm btn-primary' onclick="setSelection('consultation')">ВСЁ</button>
+
+          <button class='btn btn-sm btn-success' onclick="setSelection('chs')">ЧС</button>
+          <button class='btn btn-sm btn-success' onclick="setSelection('triggers')">Триггеры</button>
+          <button class='btn btn-sm btn-success' onclick="setSelection('mission')">Миссия</button>
+          <button class='btn btn-sm btn-success' onclick="setSelection('task')">Задача</button>
+          <button class='btn btn-sm btn-success' onclick="setSelection('year')">Год</button>
+        </div>
+      </div>
+      <hr>
+      <div id='consultation'>
+        <h3 class='copy mb-2' onclick="setSelection('consultation')">Экспресс-консультация по науке Сюцай</h3>
+        <p>{{fio && `Имя: ${fio}`}}</p>
+        <p>Дата рождения: {{day}}.{{month}}.{{year}}</p>
+        <p>Число Сознания: {{chs}}. Миссия: {{mission}}. Личный Год: {{selfYear}}</p>
+        <br>
+
+
+        <h4 class='copy' onclick="setSelection('chs')">Число Сознания</h4>
+        <div id="chs" class="large-text">{{day && chsDescription[chs - 1]}}</div>
+        <h4 class='copy' onclick="setSelection('triggers')">Триггеры Числа Сознания</h4>
+        <div id="triggers" class="large-text">{{day && triggers[chs - 1]}}</div>
+        <h4 class='copy' onclick="setSelection('mission')">Миссия</h4>
+        <div id="mission" class="large-text">{{day && month && year && missionDescription[mission - 1]}}</div>
+        <h4 class='copy' onclick="setSelection('task')">Задача от Творца</h4>
+        <div id="task" class="large-text">{{day && taskDescription[chs - 1]}}</div>
+        <h4 class='copy' onclick="setSelection('year')">Личный Год</h4>
+        <div id="year" class="large-text">{{day && month && yearDescription[selfYear - 1]}}</div>
+      </div>
+      <hr>
+      <div>
+        <h3 id='number' class='anchor'>Посчитать Число, Город, Имя, Карточку или Телефон </h3>
+        <div>
+          <span><i>Буквы считает только на английском для точности</i></span>
+          <input type="text" pattern="[A-Za-z]" placeholder="Введите текст на английском. Например, Moskva"
+            v-model="textCalc" class="form-control mb-4 mt-2">
+          <div>
+            <strong>Итоговая Цифра: {{textCalcResult}}</strong>
+            <ul class="list-group">
+              <li class="list-group-item" :class="{active: textCalcResult==1}">1 Популярность</li>
+              <li class="list-group-item" :class="{active: textCalcResult==2}">2 Личное благополучие, к
+                замужеству
+              </li>
+              <li class="list-group-item" :class="{active: textCalcResult==3}">3 Солидность</li>
+              <li class="list-group-item" :class="{active: textCalcResult==4}">4 Отчужденность</li>
+              <li class="list-group-item" :class="{active: textCalcResult==5}">5 Артистизм</li>
+              <li class="list-group-item" :class="{active: textCalcResult==6}">6 Успех, к замужеству</li>
+              <li class="list-group-item" :class="{active: textCalcResult==7}">7 Вызов природе</li>
+              <li class="list-group-item" :class="{active: textCalcResult==8}">8 Постоянный упорный труд</li>
+              <li class="list-group-item" :class="{active: textCalcResult==9}">9 Эмоциональная глубина</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="anchor mt-4" id="invite">
+        <h3 class='copy' onclick="setSelection('inviteText')">Хочешь узнать больше и конкретно про тебя?</h3>
+        <div id="inviteText" class="large-text">{{inviteDescription}}</div>
+      </div>
+
+    </main>
+
+    <footer class="page-container">
+      <p class='anchor' id='contacts'>
+      <h3>Контакты</h3>
+      <h6>Для записи на диагностику, консультацию или обучение обращайтесь по следующим контактам:</h6>
+      Александр Грицких: <a href="https://t.me/alexgritskikh" target="_blank">t.me/alexgritskikh</a>, WhatsApp: <a
+        href="https://wa.me/79184944449">+79184944449</a><br>
+    </footer>
+
+  </div>
+
+  <script>
+    function setSelection(id) {
+      var target = document.getElementById(id);
+      var rng, sel;
+      if (document.createRange) {
+        rng = document.createRange();
+        rng.selectNode(target)
+        sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(rng);
+      } else {
+        var rng = document.body.createTextRange();
+        rng.moveToElementText(target);
+        rng.select();
+      }
+      navigator.clipboard.writeText(sel.toString())
+    }
+  </script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/3.7.1"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/1.16.1@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.14.6.2js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
